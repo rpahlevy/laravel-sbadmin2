@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('template');
 });
+
+include 'web.sample.php';
