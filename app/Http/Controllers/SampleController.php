@@ -17,9 +17,9 @@ class SampleController extends Controller
     public function animations() { return $this->sampleView('animations'); }
     public function others() { return $this->sampleView('others'); }
 	
-    public function login() { return $this->sampleView('login'); }
-    public function register() { return $this->sampleView('register'); }
-    public function forgotPassword() { return $this->sampleView('forgot-password'); }
+    public function login() { return $this->sampleView('auth.login'); }
+    public function register() { return $this->sampleView('auth.register'); }
+    public function forgotPassword() { return $this->sampleView('auth.forgot-password'); }
     public function error404() { return $this->sampleView('404'); }
     public function blank() { return $this->sampleView('blank'); }
 	

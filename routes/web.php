@@ -13,6 +13,6 @@
 
 Route::get('/', function () {
     return view('template');
-});
+})->name('index');
 
 include 'web.sample.php';

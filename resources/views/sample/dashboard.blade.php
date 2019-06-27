@@ -1,6 +1,6 @@
 @extends('sample.layout.master')
 @php
-    $title = 'Dashboard';
+$title = 'Dashboard';
 @endphp
 
 @section('content')

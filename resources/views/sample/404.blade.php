@@ -1,6 +1,6 @@
 @extends('sample.layout.master')
 @php
-    $title = 'Not Found';
+$title = 'Not Found';
 @endphp
 
 @section('addCss')
